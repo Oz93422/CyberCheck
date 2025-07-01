@@ -1,4 +1,6 @@
-The goal of CyberCheck is to make learning cybersecurity more interactive. Whether you're just getting started or want a quick refresher, this tool gives you a chance to explore real world cyber threats and how to spot them.
+CyberCheck was built to make learning cybersecurity more fun and hands-on. Designed for beginners or anyone who wants a quick way to explore real-world threats and how to spot them.
+
+Personally built using Python with AI-assisted code. Firewall rules were configured manually, specific ports were handpicked for Nmap scanning, the cyber game was fully custom-made, and password-checking logic was personally written to flag weak and strong passwords
 
 Port Scanner: Uses nmap to check for open ports that could leave your system vulnerable.
 
