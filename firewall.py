@@ -30,7 +30,7 @@ def simulate_firewall():
             else:
                 print(f"[ALLOWED] {decoded}")
     except KeyboardInterrupt:
-        print("\n👋 Firewall stopped.")
+        print("\n Firewall stopped.")
         process.terminate()
     
     return suspicious_count
