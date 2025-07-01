@@ -1,7 +1,5 @@
 def is_weak(password, weak_list):
-    """
-    Checks if a password is weak based on length and common patterns.
-    """
+    
     if len(password) < 8:
         return True
     if password.lower() in weak_list:
@@ -9,9 +7,7 @@ def is_weak(password, weak_list):
     return False
 
 def check_password(users):
-    """
-    Checks each user's password against a weak list and returns the weak ones.
-    """
+    
     try:
         with open('weak_passwords.txt', 'r') as f:
             weak_list = [line.strip().lower() for line in f if line.strip()]
@@ -31,7 +27,6 @@ def check_password(users):
 
     return weak_users
 
-# Test run if you execute this file directly
 if __name__ == "__main__":
     sample_users = {
         "admin": "123456",
