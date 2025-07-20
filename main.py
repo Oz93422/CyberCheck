@@ -32,11 +32,11 @@ def scan_localhost():
         print(f"Security Risk Score: {risk_score}/100")
 
 
-        if risk_score == 0:
+    if risk_score == 0:
             print("Risk Level: Low - No open ports found.")
-        elif risk_score <= 30:
+    elif risk_score <= 30:
             print("Risk Level: Medium - Some open ports found. You may want to review them.")
-        else:
+    else:
             print("Risk Level: High - Multiple open ports found. Immediate action is recommended.")
 
 if __name__ == "__main__":
